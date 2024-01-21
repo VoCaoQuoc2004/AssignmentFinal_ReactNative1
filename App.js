@@ -11,9 +11,17 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={Splash}/>
-        <Stack.Screen name="SignIn" component={SignIn}/>
-        <Stack.Screen        options={{
+        <Stack.Screen options={{
+          headerTitleStyle: {
+            color: 'blue', // Đặt màu chữ ở đây
+          },
+        }}name="Home" component={Splash}/>
+        <Stack.Screen options={{
+          headerTitleStyle: {
+            color: 'blue', // Đặt màu chữ ở đây
+          },
+        }} name="SignIn" component={SignIn}/>
+        <Stack.Screen  options={{
           headerTitleStyle: {
             color: 'blue', // Đặt màu chữ ở đây
           },
