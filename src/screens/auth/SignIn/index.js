@@ -8,7 +8,6 @@ const SignIn = () => {
         <View style={styles.container}>
             <Text>Sign In</Text>
         </View>
-        
     );
 };
 export default SignIn;
