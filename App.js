@@ -13,7 +13,11 @@ const App = () => {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={Splash}/>
         <Stack.Screen name="SignIn" component={SignIn}/>
-        <Stack.Screen name="SignUp" component={SignUp}/>
+        <Stack.Screen        options={{
+          headerTitleStyle: {
+            color: 'blue', // Đặt màu chữ ở đây
+          },
+        }} name="SignUp" component={SignUp}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -8,7 +8,6 @@ import Input from "../../../components/input";
 const SignUp = () => {
     return (
         <View style={styles.container}>
-            <AuthHeader title="Sign Up"/>
             <Input label="Name" placeholder="Example Jonh"/>
             <Input label="Email" placeholder="example@gmail.com"/>
             <Input isPassword label="Password" placeholder="******"/>
