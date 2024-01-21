@@ -1,14 +1,37 @@
-import {Text, View } from "react-native";
-import{style} from './style'
+import React, { useState } from "react";
+import { Image, Pressable, Text, TextInput, View } from "react-native";
+import { styles } from "./styles";
 
-const input = () => (
-    return(
-        <TextInput
-        style={styles.input}
-        placeholder="useless placeholder"
-        keyboardType="numeric"
-      />
+const Input = ({ label, placeholder, isPassword }) => {
+    const [isPasswordVisible, setIsPasswordVisible] = useState(false);
+
+    const onEyePress = () => {
+        setIsPasswordVisible(!isPasswordVisible);
+    };
+
+    return (
+        <View style={styles.container}>
+            <Text style={styles.label}>{label}</Text>
+            <View style={styles.inputContainer}>
+                <TextInput
+                    secureTextEntry={isPassword && !isPasswordVisible}
+                    placeholder={placeholder}
+                    style={styles.input}
+                />
+                {isPassword ? (
+                    <Pressable onPress={onEyePress}>
+                        <Image
+                            style={styles.eye}
+                            source={
+                                isPasswordVisible
+                                    ? require('../../assest/images/eye.png')
+                                    : require('../../assest/images/eye_closed.png')
+                            }
+                        />
+                    </Pressable>
+                ) : null}
+            </View>
+        </View>
     );
-  );
-
-  export default input;
+};
+export default Input;

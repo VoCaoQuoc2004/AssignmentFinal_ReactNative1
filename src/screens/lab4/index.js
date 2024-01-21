@@ -1,8 +1,8 @@
 import React from 'react';
 import {Text} from 'react-native';
 
-const MyLab4 = () => {
+const Mylab4 = () => {
   return <Text>Võ Cao Quốc</Text>;
 };
 
-export default MyLab4;
+export default My lab4;
