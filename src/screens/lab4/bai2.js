@@ -38,7 +38,7 @@ const Bai2 = () => {
         barStyle={barStyle} // Kiểu chữ của StatusBar
       />
         {/* Nội dung của ScrollView */}
-      <Text style={{ color: 'black', textAlign: 'center', marginTop: 50, }}>Kéo xuống để thấy RefreshControl </Text>
+      <Text style={{ color: 'black', textAlign: 'center', marginTop: 51, }}>Kéo xuống để thấy RefreshControl </Text>
 
       </ScrollView>
 
