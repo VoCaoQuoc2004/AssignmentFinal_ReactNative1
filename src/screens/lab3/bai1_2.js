@@ -9,7 +9,6 @@ const ViewComponent = () => {
 
     return(
      <View >
-
             <TextInput
             value={name}
             onChangeText={setName}
@@ -114,8 +113,8 @@ const ViewComponent = () => {
                   </Text>
               </View>
    </View>
-  )
-}
+  );
+};
 
 
 export default ViewComponent;
@@ -145,4 +144,4 @@ const styles = StyleSheet.create({
       marginHorizontal: 15,
       marginTop:10,
   },
-})
+});

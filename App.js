@@ -11,6 +11,9 @@ import Bai1 from "./src/screens/lab4/bai1";
 import Bai2 from "./src/screens/lab4/bai2";
 import LoginScreen from "./src/screens/lab4/bai3";
 import DirectoryItem from "./src/screens/lab4/DicrectoryItem";
+import Bai3_Lab5 from "./src/screens/lab5/bai3";
+import Bai1_Lab5 from "./src/screens/lab5/bai1";
+import Bai2_Lab5 from "./src/screens/lab5/bai2";
 const Stack = createNativeStackNavigator();
 const App = () => {
   return (
@@ -33,7 +36,7 @@ const App = () => {
     //     }} name="SignUp" component={SignUp}/>
     //   </Stack.Navigator>
     // </NavigationContainer>
-    <Bai1 />
+    <Bai1_Lab5 />
   );
 };
 export default App;
