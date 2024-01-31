@@ -7,21 +7,18 @@ const Bai2_Lab5 = () => {
             <StatusBar translucent backgroundColor="rgba(0,0,0,0" />
             <ImageBackground
             source={require('../../assest/images/travel.jpg')}
-            style={styles.image}>
-                </ImageBackground>  
+            style={styles.image}> 
                 <View style={styles.details}>
                     <Text style={styles.text}>
                         <Text style={styles.firstLine}>Discover {'\n'}</Text>
                         <Text style={styles.secondLine}>world with us</Text>
                     </Text>
-                    <Text style={styles.textStyle}>Discover worldo with us</Text>
-                </View>
-                <View style={styles.footer}>
-                <TouchableOpacity style={styles.button}>
-                        <Text style={styles.buttonText}>Get Started </Text>
+                    <Text style={styles.textStyle}>Discover Worldo With Us</Text>
+                    <TouchableOpacity style={styles.button}>
+                        <Text style={styles.buttonText}> Get Started </Text>
                     </TouchableOpacity>
                 </View>
-            
+            </ImageBackground> 
         </View>
     );
 };

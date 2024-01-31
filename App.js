@@ -36,7 +36,7 @@ const App = () => {
     //     }} name="SignUp" component={SignUp}/>
     //   </Stack.Navigator>
     // </NavigationContainer>
-    <Bai1_Lab5 />
+    <Bai2_Lab5 />
   );
 };
 export default App;
