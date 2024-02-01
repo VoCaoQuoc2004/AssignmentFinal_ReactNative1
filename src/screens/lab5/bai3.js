@@ -37,12 +37,15 @@ const styles = StyleSheet.create({
 
   footer: {
     height: 60,
-    justifyContent: 'center',
+    paddingHorizontal: 20,
+    justifyContent: 'space-between',
     borderTopWidth: 1,
     borderTopColor: '#ccc',
+    flexDirection: 'row',
     backgroundColor: 'blue',
     borderTopRightRadius: 20,
     borderTopLeftRadius: 20,
+    alignItems:'center',
   },
   footerText: {
     fontSize: 16,
@@ -65,7 +68,6 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 20,
   },
   button: {
-    marginLeft: 290,
     width: 100,
     height: 50,
     backgroundColor: 'white',

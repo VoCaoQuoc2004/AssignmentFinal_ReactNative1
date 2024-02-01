@@ -47,5 +47,12 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SVN-Product Sans Bold.otf</string>
+		<string>SVN-Product Sans Italic.otf</string>
+		<string>SVN-Product Sans Regular.otf</string>
+		<string>SVN-Product-Sans-Bold-Italic.otf</string>
+	</array>
 </dict>
 </plist>

@@ -14,7 +14,11 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-MyLab-MyLabTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MyLab-MyLabTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		13B8A57116F846D4BB40A8A3 /* Fonts.htm in Resources */ = {isa = PBXBuildFile; fileRef = A7A31D975E074DF881C919BD /* Fonts.htm */; };
+		38CD62173DCF42A091145ADF /* SVN-Product Sans Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2C0E9507D7D457C97D11D9F /* SVN-Product Sans Bold.otf */; };
+		3BB1101319584C8687AF126E /* SVN-Product Sans Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F7222C76CC44B3EA32F71B6 /* SVN-Product Sans Italic.otf */; };
+		D4C3E243026A49C281995241 /* SVN-Product Sans Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6BB6B9C81A0D407D8B1EF651 /* SVN-Product Sans Regular.otf */; };
+		0599751EFBF7455393B5812C /* fonts.js in Resources */ = {isa = PBXBuildFile; fileRef = 3D8B76274E0D4D7C98702F50 /* fonts.js */; };
+		D77F28A86CB64D4F90F1E5CC /* SVN-Product-Sans-Bold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB93F3080FEB4DCA9AB7443E /* SVN-Product-Sans-Bold-Italic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +49,11 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyLab/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MyLab-MyLabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLab-MyLabTests.release.xcconfig"; path = "Target Support Files/Pods-MyLab-MyLabTests/Pods-MyLab-MyLabTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		A7A31D975E074DF881C919BD /* Fonts.htm */ = {isa = PBXFileReference; name = "Fonts.htm"; path = "../src/assest/fonts/Fonts.htm"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C2C0E9507D7D457C97D11D9F /* SVN-Product Sans Bold.otf */ = {isa = PBXFileReference; name = "SVN-Product Sans Bold.otf"; path = "../src/assest/fonts/SVN-Product Sans Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7F7222C76CC44B3EA32F71B6 /* SVN-Product Sans Italic.otf */ = {isa = PBXFileReference; name = "SVN-Product Sans Italic.otf"; path = "../src/assest/fonts/SVN-Product Sans Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6BB6B9C81A0D407D8B1EF651 /* SVN-Product Sans Regular.otf */ = {isa = PBXFileReference; name = "SVN-Product Sans Regular.otf"; path = "../src/assest/fonts/SVN-Product Sans Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D8B76274E0D4D7C98702F50 /* fonts.js */ = {isa = PBXFileReference; name = "fonts.js"; path = "../src/assest/fonts/fonts.js"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB93F3080FEB4DCA9AB7443E /* SVN-Product-Sans-Bold-Italic.otf */ = {isa = PBXFileReference; name = "SVN-Product-Sans-Bold-Italic.otf"; path = "../src/assest/fonts/SVN-Product-Sans-Bold-Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +162,11 @@
 		EBA09700B5684D729C9BC914 /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				A7A31D975E074DF881C919BD /* Fonts.htm */,
+				C2C0E9507D7D457C97D11D9F /* SVN-Product Sans Bold.otf */,
+				7F7222C76CC44B3EA32F71B6 /* SVN-Product Sans Italic.otf */,
+				6BB6B9C81A0D407D8B1EF651 /* SVN-Product Sans Regular.otf */,
+				3D8B76274E0D4D7C98702F50 /* fonts.js */,
+				BB93F3080FEB4DCA9AB7443E /* SVN-Product-Sans-Bold-Italic.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -255,7 +267,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B8A57116F846D4BB40A8A3 /* Fonts.htm in Resources */,
+				38CD62173DCF42A091145ADF /* SVN-Product Sans Bold.otf in Resources */,
+				3BB1101319584C8687AF126E /* SVN-Product Sans Italic.otf in Resources */,
+				D4C3E243026A49C281995241 /* SVN-Product Sans Regular.otf in Resources */,
+				0599751EFBF7455393B5812C /* fonts.js in Resources */,
+				D77F28A86CB64D4F90F1E5CC /* SVN-Product-Sans-Bold-Italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

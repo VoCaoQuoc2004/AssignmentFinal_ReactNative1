@@ -2,8 +2,24 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "src/assest/fonts/Fonts.htm",
-      "sha1": "ec4a07df6b757cfe588b82939ba1dfcd714a84d7"
+      "path": "src/assest/fonts/fonts.js",
+      "sha1": "c0ef6ac8106d4a11a9fed689d996a7b68b763e01"
+    },
+    {
+      "path": "src/assest/fonts/SVN-Product Sans Bold.otf",
+      "sha1": "81abcb138d22b13d40eafba480e2c66f0a704fb5"
+    },
+    {
+      "path": "src/assest/fonts/SVN-Product Sans Italic.otf",
+      "sha1": "17b6a2d46cbefe802e79837325593572eacff6b0"
+    },
+    {
+      "path": "src/assest/fonts/SVN-Product Sans Regular.otf",
+      "sha1": "fb81ea8bf1d6d7193d9c7c1555b4da95dc79c52c"
+    },
+    {
+      "path": "src/assest/fonts/SVN-Product-Sans-Bold-Italic.otf",
+      "sha1": "4b32adfd3df609f4a15946a8212eecd565d540c3"
     }
   ]
 }
