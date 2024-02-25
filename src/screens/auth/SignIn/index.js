@@ -8,10 +8,11 @@ import Checkbox from "../../../components/Checkbox";
 import Seperator from "../../../components/Seperator";
 import GoogleLogin from "../../../components/GoogleLogin";
 
-const SignIn = () => {
-    const onSignIn = () => {    
-        console.log("Test Sign In");
+const SignIn = ({navigation}) => {
+    const onSignUp = () => {    
+        navigation.navigate('SignUp');
     };
+
     return (
         <View style={styles.container}>
             <Input label="Email" placeholder="example@gmail.com"/>
@@ -20,7 +21,11 @@ const SignIn = () => {
             <Seperator text="Or sign up with"></Seperator>
             <GoogleLogin></GoogleLogin>
             <Text style={styles.footerText}>
-                Don't have an account? Sign Up
+                Don't have an account?
+                <Text onPress={onSignUp} style={styles.footerLink}>
+                    {' '}
+                    Sign Up
+                </Text>
             </Text>
         </View>
     );
