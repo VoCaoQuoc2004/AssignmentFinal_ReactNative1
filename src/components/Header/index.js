@@ -33,7 +33,7 @@ const Header = ({ title, onBackPress, onLogout, showLogout, showSearch, onSearch
             </View>
 
             {showSearchInput ? (
-                <Input onChangeText={onSearch} value={keyword} placeholder="Type your keyword..." />
+                <Input onChangeText={onSearch} value={keyword} placeholder="Type your keyword..." />   
             ) : null}
         </View>
     )
